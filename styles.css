@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 0.875rem;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+nav {
+    padding: 3% 5%;
+    background-color: hsl(217, 28%, 15%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav img {
+    height: 40px;
+}
+
+.navlink li {
+    display: inline-block;
+}
+
+.navlink li a {
+    text-decoration: none;
+    color: white;
+    padding-left: 35px;
+}
+
+.navlink li a:hover {
+    text-decoration: underline;
+}
+
+#intro-section {
+    background-image: url("images/bg-curvy-desktop.svg");
+    background-repeat: no-repeat;
+    background-position-y: bottom ;
+    background-color:  hsl(217, 28%, 15%);
+    text-align: center;
+    color: white;
+    padding-bottom: 10rem;
+}
+
+#intro-section img {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0 30px;
+}
+
+#intro-section h1 {
+    padding: 5px 0 30px;
+}
+
+#intro-section p {
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    padding-bottom: 2rem;
+}
+
+.btn {
+    border-radius: 60px;
+    color: #ffffff;
+    font-size: 1.3rem;
+    background:  hsl(198, 60%, 50%);
+    padding: 20px 100px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background:  hsl(176, 68%, 64%);
+    text-decoration: none;
+    cursor:pointer;
+  }
+
+  #features-section {
+      background-color: hsl(218, 28%, 13%);
+      color: white;
+      text-align: center;
+      padding: 5rem 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 4rem;
+  }
+
+  #features-section img {
+      padding-bottom: 1.5rem;
+  }
+
+  #features-section h2 {
+      padding-bottom: 1.2rem;
+  }
+
+  #features-section p {
+      line-height: 1.3rem;
+  }
+
+  #teams-section {
+      background-color: hsl(218, 28%, 13%);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 3rem 0 4rem;
+  }
+
+  #teams-section h1 {
+      padding-bottom: 2rem;
+  }
+
+  #teams-section p {
+      line-height: 1.4rem;
+      padding-right: 3px;
+  }
+
+  .see-how {
+    display: flex;      
+    align-items: center;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    color: hsl(176, 68%, 64%);
+    width: fit-content;
+  }
+
+  .see-how:hover {
+      color: white;
+      border-bottom: 1px solid white;
+      cursor: pointer;
+  }
+
+  #testimonials {
+      padding: 10rem 0;
+      background-color: hsl(218, 28%, 13%);
+      background-image: url("images/bg-quotes.png");
+      background-repeat: no-repeat;
+      background-position-x: 4rem;
+      background-position-y: 8rem;
+      color: white;
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+  .testimonial-box {
+      background-color: hsl(219, 30%, 18%);
+      padding: 3rem 2rem 1.5rem;
+  }
+
+  .testimonial-box p {
+      line-height: 1.4;
+  }
+
+  .profile {
+      display: flex;
+      align-items: center;
+      padding-top: 2rem;
+  }
+
+  .profile img {
+      border-radius: 50%;
+      height: 2.5rem;
+      width: auto;
+  }
+
+  .profile h3 {
+      padding-left: 10px;
+      font-size: 12px;
+  }
+
+  .profile .bio {
+      font-size: 9px;
+      font-weight: 100;
+      padding-top: 2px;
+  }
+
+#signup-section {
+    background-color: hsl(218, 28%, 13%);
+    display: flex;
+    justify-content: center;
+}
+
+#signup-section .container {
+    color: white;
+    text-align: center;
+    background-color: hsl(217, 28%, 15%);
+    padding: 3rem 4rem 1.5rem;
+}
+
+#signup-section .container h2 {
+    padding-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+#signup-section .container p {
+    line-height: 1.4;
+    font-weight: 100;
+    padding-bottom: 2rem;
+}
+
+#signup-section .container .button-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#signup-section .container .button-bar .enter-email {
+    border: 1px solid grey;
+    border-radius: 50px;
+    height: 50px;
+    width: 350px;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    background-color: #f5f5f5;
+}
+
+#signup-section .container .button-bar .btn {
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 15px;
+    background:  hsl(198, 60%, 50%);
+    height: 50px;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+#signup-section .container .button-bar .btn:hover {
+    background:  hsl(176, 68%, 64%);
+    text-decoration: none;
+    cursor:pointer;
+}
+
+#footer-section {
+    background-color: hsl(216, 53%, 9%);
+    color: white;
+    padding: 3rem;
+}
+
+.footer-details {
+    padding: 1.5rem 0;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.location img {
+    float: left;
+    padding-right: 2rem;
+}
+
+.location p {
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.contact img, .contact p {
+    display: inline-block;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.more-links {
+    display: flex;
+}
+
+.more-links li {
+    padding-bottom: 1rem;
+    padding-right: 1.5rem;
+}
+
+.more-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.more-links li a:hover {
+    font-weight: 700;
+}
+
+.social-media .fab {
+    padding-right: 20px;
+    color: white;
+}
+
+.social-media .fab:hover {
+    color: hsl(176, 68%, 64%)
+}
+
+@media (max-width : 400px) {
+
+    #intro-section img {
+      max-width: 100%;
+    }
+
+    nav {
+        padding: auto;
+        background-color: hsl(217, 28%, 15%);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    nav img {
+        height: 25px;
+    }
+
+    #features-section {
+        background-color: hsl(218, 28%, 13%);
+        color: white;
+        text-align: center;
+        padding: 5rem 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 40px;
+    }
+
+    #teams-section {
+        background-color: hsl(218, 28%, 13%);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 0 4rem;
+    }
+
+    #teams-section img {
+        max-width: 100%;
+    }
+  
+}
